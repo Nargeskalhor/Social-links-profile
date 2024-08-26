@@ -25,13 +25,16 @@ body {
 
   border-radius: 1rem;
 }
+.image-1 {
+  margin-bottom: 3rem;
+}
 .image {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 7rem;
   height: 7rem;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 0 auto;
   border-radius: 50%;
 }
 .text {
@@ -39,19 +42,19 @@ body {
 }
 .text > h3 {
   color: hsl(75, 94%, 57%);
-  font-size: 12px;
+  font-size: 11px;
   position: relative;
   top: -1px;
 }
 .text > h1 {
   color: hsl(0, 0%, 85%);
-  font-size: 21px;
+  font-size: 18px;
   position: relative;
-  top: -5px;
+  top: -8px;
 }
 .text > p {
   color: hsl(0, 0%, 85%);
-  font-size: 13px;
+  font-size: 10px;
   position: relative;
   top: 2px;
 }
@@ -66,11 +69,13 @@ body {
   margin: 0.5rem 3rem;
   border-radius: 5px;
   border: 1px solid hsl(0, 0%, 20%);
-  font-size: 12px;
+  font-size: 11px;
+  font-family: inter;
 }
 
 .input-box:hover {
   background-color: hsl(75, 94%, 57%);
-  border-radius: 1px solid hsl(75, 94%, 57%);
+  font-weight: 700;
   color: hsl(0, 0%, 20%);
+  font-family: inter;
 }
