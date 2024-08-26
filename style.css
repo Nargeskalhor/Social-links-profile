@@ -87,7 +87,8 @@ body {
 }
 @media only screen and (max-width: 375px) {
   .profile {
-    width: 28.8rem;
+    padding: 1rem 0;
+    width: 28.5rem;
     height: 50.8rem;
     display: flex;
     justify-content: space-evenly;
@@ -100,8 +101,7 @@ body {
     height: 7.5rem;
   }
   .text {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 2.5rem;
   }
   .text > h1 {
     font-weight: 600;
@@ -118,7 +118,7 @@ body {
   }
   .input-box {
     padding: 1.1rem;
-    margin: 0 2rem;
+    margin: 0.2rem 2rem;
     font-size: 13px;
     font-weight: 500;
   }
