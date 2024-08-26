@@ -79,3 +79,47 @@ body {
   color: hsl(0, 0%, 20%);
   font-family: inter;
 }
+@media only screen and (max-width: 1440px) {
+  .profile {
+    width: 30rem;
+    height: 46rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .profile {
+    width: 28.8rem;
+    height: 50.8rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .image-1 {
+    margin: 0;
+  }
+  .image {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+  .text {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .text > h1 {
+    font-weight: 600;
+    font-size: 21px;
+  }
+  .text > h3 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .text > p {
+    font-size: 13px;
+    position: relative;
+    top: 7px;
+  }
+  .input-box {
+    padding: 1.1rem;
+    margin: 0 2rem;
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
